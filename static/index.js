@@ -419,7 +419,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         } else {
             if (score <= 49) return '有罪';
             if (score <= 99) return '无罪';
-            if (score <= 149) return '花Q';
+            if (score <= 149) return '花Q!';
             return '花Q';
         }
     }
