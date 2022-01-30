@@ -412,15 +412,15 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
 
         if (mode === MODE_ENDLESS) {
-            if (score <= 5) return '试着好好练一练？';
-            if (score <= 8) return '试着好好练一练';
-            if (score <= 10)  return 'tql';
-            return '压力马斯内';
+            if (score <= 5) return '有罪';
+            if (score <= 8) return '无罪';
+            if (score <= 10)  return '花Q!';
+            return '花Q';
         } else {
-            if (score <= 49) return '试着好好练一练？';
-            if (score <= 99) return '试着好好练一练？';
-            if (score <= 149) return 'tql';
-            return '压力马斯内';
+            if (score <= 49) return '有罪';
+            if (score <= 99) return '无罪';
+            if (score <= 149) return '花Q';
+            return '花Q';
         }
     }
 
